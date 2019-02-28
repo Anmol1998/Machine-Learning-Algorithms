@@ -10,7 +10,8 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
 
-data = pd.read_csv("C:/Users/Anmol Agrawal/Desktop/iris.csv")
+#UCI repository iris dataset
+data = pd.read_csv("iris.csv")
 print(data.head())
 
 data = data.values[:,:-1]
