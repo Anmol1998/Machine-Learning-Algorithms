@@ -5,7 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 
-wine = pd.read_csv("D:\Semester 6\ML\LAB\ML LAB-2\wine.csv")
+#UCI repository Wine dataset
+wine = pd.read_csv("wine.csv")
 
 target=wine.Wine
 data=wine.values[:,1:]
