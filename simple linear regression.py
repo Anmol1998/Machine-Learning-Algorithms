@@ -4,7 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import pandas as pd
 
-data = pd.read_csv("D:/Semester 6/ML/LAB/ML LAB-1/day.csv")
+#Dataset URL: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
+data = pd.read_csv("day.csv")
 
 #x_tmp = data.registered
 x_tmp = data.values[:,14]
