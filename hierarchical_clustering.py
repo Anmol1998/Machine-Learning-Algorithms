@@ -11,7 +11,8 @@ import numpy as np
 import scipy.cluster.hierarchy as shc
 from sklearn.cluster import AgglomerativeClustering
 
-data = pd.read_csv("C:/Users/Anmol Agrawal/Desktop/iris.csv")
+#UCI repository iris dataset
+data = pd.read_csv("iris.csv")
 print(data.head())
 
 data=data.values[:,:-1]
