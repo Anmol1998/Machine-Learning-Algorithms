@@ -17,7 +17,8 @@ import seaborn as sns
 
 sns.set(style="whitegrid",color_codes=True)
 
-social_data=pd.read_csv("D:\Semester 6\ML\DA\Social_Network_Ads.csv")
+#Dataset link: https://www.kaggle.com/rakeshrau/social-network-ads
+social_data=pd.read_csv("Social_Network_Ads.csv")
 
 print(social_data.head())
 
