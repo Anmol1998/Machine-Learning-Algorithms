@@ -10,7 +10,8 @@ from sklearn.svm import SVC
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-data=pd.read_csv("C:/Users/Anmol Agrawal/Desktop/iris.csv")
+#UCI repository iris dataset
+data=pd.read_csv("iris.csv")
 print(data.head())
 x = data.values[:,:-1]
 y = data.values[:,-1]
