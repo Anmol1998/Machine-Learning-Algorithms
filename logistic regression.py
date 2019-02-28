@@ -3,7 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import pandas as pd
 
-data = pd.read_csv("D:/Semester 6/ML/LAB/ML LAB-1/iris.csv")
+#UCI repository iris dataset
+data = pd.read_csv("iris.csv")
 
 x = data[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']]
 y = data.species
