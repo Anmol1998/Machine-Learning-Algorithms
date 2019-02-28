@@ -11,10 +11,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import pandas as pd
 
-data = pd.read_csv("C:/Users/Anmol Agrawal/Desktop/wine.csv")
+#UCI repository iris dataset
+data = pd.read_csv("wine.csv")
 
 x1 = data.iloc[:,:-1].values
-#x2 = data.iloc[:,1].values
 y_tmp = data.iloc[:,-1].values
 
 x = []
